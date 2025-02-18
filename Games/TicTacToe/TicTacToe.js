@@ -4,6 +4,13 @@ boardContents.fill(" ");
 let player = "X";
 let win = false;
 
+//Tasks
+//Random play game as basic starter - accomplished!!
+//2 player play with UI
+// 1. random number is not necessay for play with player input
+// 2. create UI for input method.
+// 3. adapt play logic to fit with user input....more to come
+
 function getRandomNumber() {
   return Math.floor(Math.random() * 9);
 }
